@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Ruby Enumberable#group_by</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<main>
+  <h1>Ruby Enumberable#group_by </h1>
+  <h2>A Handy Iterator</h2>
+  <h4 id="date">10-11-15</h4>
+
+  <section>
+    <h2>First: What is a enumberable? What is iteration?</h2>
+    <p>
+      An enumberable could be described as a collection of objects that are handled in a container. That number of things can be done to that container. We could 'look' into the container, or we can use each object in the container as a source of input for a block of code to be repeated on. That's what iteration is. Iteration is the repeating of a block of code with some kind of input and return-ing an output.
+    </p>
+    <h2>How Enumberable#group_by is used.</h2>
+    <p>
+      There's always a input and an output. The Enumberable#group_by will take each object in the 'container' and use each object in the code block until it has gone thru each object. #group_by will "iterate" through each object and group them up based on the code block provided
+    </p>
+    <p>
+      <xmp>
+        arrary_or_hash.group_by {|object| object.length}
+        #=> # Returns a hash grouped according to the code block
+      </xmp>
+    </p>
+    <p>
+    Ruby documentation on Enumberable#group_by can be found at: <a href="http://ruby-doc.org/core-2.2.3/Enumerable.html#method-i-group_by">#group_by</a>
+
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
