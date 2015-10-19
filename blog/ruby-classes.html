@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>Instances from Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<main>
+  <h1>Instances from Classes</h1>
+  <h2>Instances and Spawns!</h2>
+  <h4 id="date">10-11-15</h4>
+
+  <section>
+    <h2>How is an instance of something is created?</h2>
+    <p>
+      When an instance of something is created/spawned, it is created from blueprint called a class. Detailed inside these blueprints(classes) can be methods and variables that we want our spawns to have/inherit!
+    </p>
+    <h2>So what's an instance in terms of programming in Ruby?</h2>
+    <p>
+      Those variables methods detailed inside the class are the blueprint variables and methods! When we initialize the Phone class and store into an object(see below), Ruby creates instance variables unique to the instance following the class blueprint, and also makes it inherit the methods(therefore called instance methods).
+      <xmp>
+        object_container = Phone.new  # "Spawing" a new Phone instance and storing it into object_containter
+        object_container.mute  # .mute method was included in the new instance because it was a method that was defined in the class blueprint!
+        object_container.release_date   # .release_date is an method that returns the instance variable @release_date
+      </xmp>
+
+    <p>
+    This is a brief n00b rundown of how Classes and instance variaables; For more information on Ruby Classes and instances, The Well Grounded Rubyist by David Black is an excellent resource. <a href="http://www.amazon.com/The-Well-Grounded-Rubyist-David-Black/dp/1933988657">#Support the Author!</a>
+
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>

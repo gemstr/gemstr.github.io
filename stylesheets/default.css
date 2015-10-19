@@ -45,7 +45,7 @@ header p {
 
 .clear h2 {
   text-align: center;
-  border:1px solid red;
+  border:2px solid #6689CC;
 }
 
 h2 {
@@ -81,4 +81,3 @@ nav {
   text-align: center;
 
 }
-
