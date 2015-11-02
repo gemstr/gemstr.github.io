@@ -1,0 +1,34 @@
+        header{
+           text-align: center;
+           font-size: 35px;
+           border: 1px solid black;
+           }
+        #bigt{
+          text-align: center;
+          font-size: 26px;
+        }
+        .command_box{
+          background-color: lightgray;
+          margin-bottom: 40px;
+          border: 2px solid black;
+        }
+        .command_name{
+          margin: 25px 30px 10px 30px;
+          font-size: 30px;
+          float:left;
+          color: black;
+          background-color: g;
+        }
+        .command_def{
+          display:block;
+          margin-top: 10px;
+          padding: 10px;
+          background-color:;
+        }
+        .command_code{
+         background-color: #CCCCFF;
+         font-family: courier;
+         padding: 10px;
+         text-align: left;
+         color: #818100;
+        }

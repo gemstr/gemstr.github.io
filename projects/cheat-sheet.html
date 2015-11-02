@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet.css">
+    <title>Cheatsheet</title>
+  </head>
+
+<body>
+    <header>Cheat Sheet</header>
+    <div id="bigt"><p>Cheat Sheet of SQL Query Commands!</p></p></div>
+    <div class = "command_box">
+      <div class = "command_name">
+        SELECT * FROM table;
+      </div>
+        <div class = "command_def">
+          Selects ALL column data from table
+        </div>
+        <div class = "command_code">
+         SELECT * FROM Students;
+        </div>
+    </div>
+
+    <div class = "command_box">
+       <div class = "command_name">
+         SELECT column1, column 2, .. FROM table;
+       </div>
+      <div class = "command_def">Selects data from columns specified from table
+      </div>
+      <div class = "command_code">
+        SELECT LastName, FirstName FROM Students;
+      </div>
+    </div>
+
+    <div class = "command_box">
+       <div class = "command_name">
+       SELECT column1, column 2,... <br/>
+          FROM table <br/>
+          [WHERE conditions];
+      </div>
+       <div class = "command_def">
+         Selects the specified columns from table located where the condition evaluates TRUE.
+       </div>
+       <div class = "command_code">
+         SELECT LastName, FirstName <br/>
+            FROM Students </br>
+            WHERE StudentID LIKE '%substring%';
+       </div>
+    </div>
+
+    <div class = "command_box">
+       <div class = "command_name">
+         SELECT column1, column2,.. <br/>
+            FROM table <br/>
+            [ORDER BY column(s)[DESC/ASC]]
+       </div>
+       <div class = "command_def">
+         Selects from column1 and column 2 from Table, and orders in Descending or Ascending order.
+       </div>
+       <div class = "command_code">
+         SELECT LastName, FirstName<br/>
+            FROM table <br/>
+            [ORDER BY column(s)[DESC]];
+       </div>
+    </div>
+
+    <div class = "command_box">
+       <div class = "command_name">
+         SELECT column1, column2, .. <br/>
+            FROM table1, table2.. <br/>
+            [WHERE condition(s)];
+       </div>
+       <div class = "command_def">
+         Joins column1 of table 1 and column2 of table2.
+       </div>
+       <div class = "command_code">
+         SELECT LastName,Points <br/>
+            FROM Students, Assignments <br/>
+            WHERE AssignmentsID = 12 AND <br/>
+            Students.StudentID=Assignments.StudentID;
+       </div>
+    </div>
+
+    </body>
+</html>
